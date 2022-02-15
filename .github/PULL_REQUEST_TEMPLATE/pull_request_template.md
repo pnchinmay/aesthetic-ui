@@ -1,5 +1,3 @@
-<!-- Provide a descriptive summary of the changes in the title above -->
-
 #### ISSUE TYPE
 <!-- Pick relevant types and delete the rest -->
 - Bug fix
@@ -9,11 +7,11 @@
 #### CHECKLIST
 <!-- All [REQUIRED] requisites need to be fulfilled -->
 <!-- Replace [ ] with [X] when fulfilled -->
-- [X] Task 1
+- [X] Task
 
 #### DESCRIPTION
 <!-- Describe the changes in detail -->
-- Added Issue template for the project
+- Added 
 
 
 <!-- #### MOTIVATION AND CONTEXT -->
