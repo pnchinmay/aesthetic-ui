@@ -29,5 +29,5 @@
 <!-- Link or embed images and videos of screenshots, sketches etc. -->
 
 #### LINKED ISSUES
-Closes #  
-Resolves #
+closes #  
+resolves #
