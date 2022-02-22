@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Chinmay Manas" />
+    <meta name="description" content="Utilities for controlling alert components">
+
+    <!-- Primary Meta Tags -->
+    <title>Button - Aesthetic UI</title>
+    <meta name="title" content="Aesthetic UI">
+    <meta name="author" content="Chinmay Manas">
+    <meta name="description" content="Utilities for controlling alert components">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aesthetic-ui-dev.netlify.app/">
+    <meta property="og:title" content="Aesthetic UI">
+    <meta name="description" content="Utilities for controlling alert components">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/pnchinmay/aesthetic-ui/development/assets/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aesthetic-ui-dev.netlify.app/">
+    <meta property="twitter:title" content="Aesthetic UI">
+    <meta property="twitter:description"
+        content="Aesthetic UI, a UI component library for shipping code faster.
+Aesthetic UI is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/pnchinmay/aesthetic-ui/development/assets/logo.png">
+
+    <!-- Optional Meta Tags -->
+    <meta name="keywords"
+        content="CSS, CSS Framework, UI Component Library, Component Library, CSS Framework, UI, ui, components, website, development, library, web development, web">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- External Imports -->
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar-top">
+            <div class="navbar-section">
+                <div>
+                    <a href="/index.html">
+                        <span class="brand">
+                            <img src="/assets/logo.png" alt="Aesthetic UI Logo" class="brand-logo">
+                        </span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="list-item-inline">
+                        <a href="/pages/introduction.html">Get Started</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/pages/alert.html">Documentation</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/pages/alert.html">Components</a>
+                    </li>
+                </ul>
+
+                <ul class="nav-links">
+                    <li class="list-item-inline">
+                        <a href="https://github.com/pnchinmay/aesthetic-ui" target="_blank"><i
+                                class="fab fa-github h3 list-item-inline"></i></a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    <!-- Component Section -->
+    <div class="main-section">
+
+        <!-- Sidebar -->
+        <nav id="sidebar-menu" class="sidebar">
+            <ul class="sidebar-list">
+                <a href="/pages/introduction.html" class="sidebar-link title">Get Started</a>
+                <a href="/pages/introduction.html" class="sidebar-link">Installation</a>
+
+                <a href="/pages/alert.html" class="sidebar-link title">Components</a>
+
+                <a href="/pages/alert.html" class="sidebar-link">Alert</a>
+
+                <a href="/pages/avatar.html" class="sidebar-link">Avatar</a>
+
+                <a href="/pages/badge.html" class="sidebar-link">Badge</a>
+
+                <a href="/pages/button.html" class="sidebar-link active">Button</a>
+
+                <a href="/pages/card.html" class="sidebar-link">Card</a>
+
+                <a href="/pages/image.html" class="sidebar-link">Images</a>
+
+                <a href="/pages/input.html" class="sidebar-link">Input</a>
+
+                <a href="/pages/lists.html" class="sidebar-link">Lists</a>
+
+                <a href="/pages/navigation.html" class="sidebar-link">Navigation</a>
+
+                <a href="/pages/rating.html" class="sidebar-link">Rating</a>
+
+                <a href="/pages/text-utilities.html" class="sidebar-link">Text Utilities</a>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="docs-body">
+                <header class="docs-header">
+                    <h2>Buttons</h2>
+                    <p class="docs-para">
+                        The Button component is used to trigger an action or event, such as submitting a form, opening a
+                        dialog, canceling an action, or performing a delete operation.
+                    </p>
+                </header>
+                <section class="docs-section">
+                    <h3>Solid Buttons</h3>
+                    <div class="component-container">
+                        <button class="btn btn-solid-primary">Primary</button>
+                        <button class="btn btn-solid-info">Info</button>
+                        <button class="btn btn-solid-success">Success</button>
+                        <button class="btn btn-solid-warning">Warning</button>
+                        <button class="btn btn-solid-error">Error</button>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=auto&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-error%2522%253EError%253C%252Fbutton%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Outline Buttons</h3>
+                    <div class="component-container">
+                        <button class="btn btn-outline-primary">Primary</button>
+                        <button class="btn btn-outline-info">Info</button>
+                        <button class="btn btn-outline-success">Success</button>
+                        <button class="btn btn-outline-warning">Warning</button>
+                        <button class="btn btn-outline-error">Error</button>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=auto&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-error%2522%253EError%253C%252Fbutton%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Icon and Link Buttons</h3>
+                    <div class="component-container">
+                        <button class="btn btn-link">My-Link</button>
+
+                        <button class="btn-w-icon btn-solid-info">
+                            <i class="fas fa-shopping-cart icon"></i>
+                            <span> Add to Cart </span>
+                        </button>
+
+                        <button class="btn-w-icon btn-solid-error">
+                            <i class="fas fa-trash icon"></i>
+                            <span> Delete </span> 
+                        </button>
+
+                        <button class="btn btn-primary disabled">Disabled</button>
+                        <button class="btn btn-outline-error">Error</button>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253EMy-Link%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-info%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520Delete%2520%253C%252Fspan%253E%2520%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520disabled%2522%253EDisabled%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-error%2522%253EError%253C%252Fbutton%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Floating Icon Buttons</h3>
+                    <div class="component-container">
+                        <button class="btn btn-solid-primary btn-floating">
+                            <i class="fas fa-arrow-up"></i>
+                        </button>
+
+                        <button class="btn btn-solid-info btn-floating">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-info%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+
+                <!-- Next Component -->
+                <!-- <footer class="component-next">
+                    <div>
+                    <a href=""></a>
+                    <a href="/pages/introduction.html">
+                        <i class="fas fa-angle-left"></i> Installation</a>
+                    </div>
+                    <div>
+                    <a href=""></a>
+                    <a href="/pages/avatar.html">
+                        Avatar <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </footer> -->
+
+                <!-- Documentation Page Footer -->
+                <footer class="doc-footer">
+                    <div class="footer-header mb-1">
+                        Made with <i class="fas fa-heart" aria-hidden="true"></i> by Chinmay Manas
+                    </div>
+                    <div class="footer-social-handles">
+                        <a href="https://github.com/pnchinmay" aria-label="Github Profile" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/pnchinmay" aria-label="Twitter Profile" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/pnchinmay" aria-label="LinkedIn Profile" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </footer>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/scripts/documentation.js"></script>
+</body>
+
+</html>
