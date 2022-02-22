@@ -16,7 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
 
-  plugins: ['react', 'react-hooks', 'prettier'],
+  plugins: ['react', 'react-hooks', 'prettier', 'html'],
 
   rules: {
     //
