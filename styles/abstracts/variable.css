@@ -7,6 +7,10 @@
   --color-primary-hover: #29a56c;
   --color-primary-light: #def9ec;
   --color-text: #ffffff;
+  --color-info: #0057d9;
+  --color-error: #bc1816;
+  --color-success: #29a56c;
+  --color-warning: #f8aa1c;
 
   /* Background */
   --bg-footer: #def9ec;
@@ -39,12 +43,8 @@
 
   /* Buttons */
   --btn-info: #0057d9;
-  --btn-lightgray: lightgray;
-  --btn-hover: #a9a9a9;
   --btn-error: #bc1816;
   --btn-success: #29a56c;
   --btn-warning: #f8aa1c;
-  --btn-hover: #454545;
   --btn-padding: 1.6rem 2rem;
-  --gray: gray;
 }
