@@ -1,0 +1,19 @@
+/*************** Aesthetic UI General Styles ***************/
+.homepage-container-wrapper {
+  padding: 2rem 2.5rem;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage-text {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.hero-img {
+  box-sizing: border-box;
+}
