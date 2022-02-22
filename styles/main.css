@@ -1,0 +1,54 @@
+/*************** External Imports ***************/
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@100;300;400;500&display=swap');
+
+/*************** Base Files ***************/
+@import './base/reset.css';
+@import './utils/layouts.css';
+@import './utils/margin.css';
+@import './utils/padding.css';
+@import './utils/typography.css';
+@import './utils/utilities.css';
+
+/*************** Variables ***************/
+@import './abstracts/variable.css';
+
+/*************** Doc Styles ***************/
+@import './documentation/doc-styles.css';
+
+/*************** Components ***************/
+@import './components/alert.css';
+@import './components/avatar.css';
+@import './components/badge.css';
+@import './components/button.css';
+@import './components/card.css';
+@import './components/image.css';
+@import './components/input.css';
+@import './components/list.css';
+@import './components/navigation.css';
+@import './components/rating.css';
+@import './components/text-utilities.css';
+
+/*************** General Styles ***************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--font-size-default);
+}
+
+body {
+  /* Box Model */
+  min-height: 100vh;
+
+  /* Typography */
+  font-family: Montserrat, sans-serif;
+
+  /* Visual */
+  background: var(--bg-primary);
+}
