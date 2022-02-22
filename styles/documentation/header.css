@@ -1,0 +1,46 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  /* border-bottom: 2px solid #2a9d8f; */
+  z-index: 2;
+
+  align-items: center;
+  width: 100%;
+  margin: auto;
+
+  background-color: var(--white);
+}
+
+.brand {
+  cursor: pointer;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+/* 
+.brand-link {
+  margin-left: 3em;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.brand {
+  display: flex;
+  align-items: flex-start;
+  margin: 0%;
+
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.brand img {
+  width: 12rem;
+  max-width: 100%;
+} */

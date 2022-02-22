@@ -1,0 +1,39 @@
+.navbar-top {
+  /* Box Model */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 12vh;
+  padding: 1.5rem 2.5rem;
+
+  /* Typography */
+  color: hsl(230deg 22% 20%);
+  font-weight: 500;
+
+  /* Visual */
+  background-color: var(--white);
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  color: var(--plain-gray);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--color-primary);
+
+  cursor: pointer;
+}

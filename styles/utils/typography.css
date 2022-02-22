@@ -1,0 +1,129 @@
+/*************** Headings ***************/
+
+h1 {
+  margin-bottom: 0.5rem;
+
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+
+  font-size: 2rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.75rem;
+}
+
+h5 {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.5rem;
+}
+
+h6 {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.25rem;
+}
+
+/*************** Paragraph Styles ***************/
+
+p {
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+
+/*************** More on Typogrqaphy ***************/
+
+.text-primary-color {
+  color: var(--color-primary);
+}
+
+.text-secondary-color {
+  color: var(--color-secondary);
+}
+
+.text-disabled {
+  color: var(--dark-grey);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalise {
+  text-transform: capitalize;
+}
+
+.text-small {
+  font-size: 0.875rem;
+}
+
+.text-big {
+  font-size: 1.125rem;
+}
+
+.text-light {
+  font-weight: lighter;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-no-underline {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.link-no-style {
+  padding: 0;
+  border: none;
+
+  color: inherit;
+  text-decoration: none;
+
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text-cursor-pointer {
+  cursor: pointer;
+}
