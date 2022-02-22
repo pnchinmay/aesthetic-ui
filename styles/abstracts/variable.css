@@ -1,26 +1,50 @@
 :root {
   --font-size-default: 87.5%;
+
+  /* Colors */
   --color-primary: #3bb77e;
   --color-secondary: #237e57;
   --color-primary-hover: #29a56c;
   --color-primary-light: #def9ec;
   --color-text: #ffffff;
+
+  /* Background */
   --bg-footer: #def9ec;
   --bg-primary: #f6f8fa;
   --bg-code: #282c34;
   --default-box-shadow: 0 3px 6px 0 rgb(105 111 125 / 49%);
+
+  /* Padding and Margin */
   --padding-default: 0.25rem;
   --margin-default: 0.25rem;
+
+  /* Font Weight */
   --font-light: 300;
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
   --button-border: 0.25rem;
+
+  /* Colors */
   --white: #ffffff;
   --red: #fd4e4e;
   --light-gray: #808080;
   --black: #000000;
+
+  /* Radius */
   --radius-sm: 5px;
   --radius-md: 10px;
   --radius-lg: 15px;
+  --radius-round: 999px;
+
+  /* Buttons */
+  --btn-info: #0057d9;
+  --btn-lightgray: lightgray;
+  --btn-hover: #a9a9a9;
+  --btn-error: #bc1816;
+  --btn-success: #29a56c;
+  --btn-warning: #f8aa1c;
+  --btn-hover: #454545;
+  --btn-padding: 1.6rem 2rem;
+  --gray: gray;
 }
