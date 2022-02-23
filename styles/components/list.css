@@ -1,0 +1,97 @@
+.list {
+  text-align: start;
+  width: 12rem;
+  list-style-position: outside;
+}
+
+.list li {
+  padding: 0.3rem 0.5rem;
+  /* padding: 0.5rem; */
+}
+.list-non-bullet {
+  text-align: start;
+  list-style: none;
+}
+
+.list-bullet {
+  text-align: start;
+  list-style: disc;
+  list-style-position: outside;
+}
+
+.list-square {
+  text-align: start;
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+.list-number {
+  text-align: start;
+  list-style-type: number;
+  list-style-position: outside;
+}
+
+.list-roman {
+  text-align: start;
+  list-style-type: lower-roman;
+  list-style-position: outside;
+}
+
+.list-roman2 {
+  text-align: start;
+  list-style-type: upper-roman;
+  list-style-position: outside;
+}
+
+.list-alpha {
+  text-align: start;
+  list-style-type: lower-alpha;
+  list-style-position: outside;
+}
+
+.list-alpha2 {
+  text-align: start;
+  list-style-type: upper-alpha;
+  list-style-position: outside;
+}
+
+.list-custom {
+  text-align: start;
+  list-style-type: '\1F680';
+  list-style-position: outside;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.list-scroll {
+  list-style-position: inside;
+  max-height: 12.5rem;
+  text-align: start;
+  overflow-y: auto;
+  position: relative;
+}
+
+.list-stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.list-stacked li {
+  background-color: var(--color-primary-extra-light);
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  transition: var(--transition-default);
+  border-radius: var(--radius-sm);
+}
+
+.list-stacked li:hover {
+  transform: translate(2%);
+}
