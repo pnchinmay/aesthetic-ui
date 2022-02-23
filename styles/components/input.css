@@ -1,0 +1,43 @@
+.input {
+  padding: 0.5em 1em;
+  border: 2px solid none;
+  border-radius: 0.5em;
+}
+
+.input-textbox {
+  padding: 0.5em 1em;
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5em;
+
+  background-color: transparent;
+}
+
+.input-success {
+  padding: 0.5em 1em;
+  border: 2px solid var(--color-success);
+  border-radius: 0.5em;
+
+  color: var(--color-success);
+
+  background-color: transparent;
+}
+
+.input-warning {
+  padding: 0.5em 1em;
+  border: 2px solid var(--color-warning);
+  border-radius: 0.5em;
+
+  color: var(--color-warning);
+
+  background-color: transparent;
+}
+
+.input-error {
+  padding: 0.5em 1em;
+  border: 2px solid var(--color-error);
+  border-radius: 0.5em;
+
+  color: var(--color-error);
+
+  background-color: transparent;
+}
