@@ -3,6 +3,7 @@
 
   /* Colors */
   --color-primary: #3bb77e;
+  --color-primary-extra-light: rgb(127, 214, 174, 0.5);
   --color-secondary: #237e57;
   --color-primary-hover: #29a56c;
   --color-primary-light: #def9ec;
@@ -49,4 +50,5 @@
   --btn-success: #29a56c;
   --btn-warning: #f8aa1c;
   --btn-padding: 1.6rem 2rem;
+  --transition-default: all 0.3s ease 0s;
 }

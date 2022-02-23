@@ -12,6 +12,11 @@
   background-color: transparent;
   outline: none;
   cursor: pointer;
+  transition: var(--transition-default);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
 }
 
 .btn-outline-primary {
@@ -129,12 +134,12 @@
 }
 
 .btn-w-icon {
-  display: inline-block;
+  display: flex;
   width: fit-content;
-  margin: 0 0.6rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   border: none;
   border-radius: var(--button-border);
+  position: relative;
 
   font-size: 1.125rem;
   text-align: center;
@@ -142,11 +147,29 @@
 
   outline: none;
   cursor: pointer;
+  transition: var(--transition-default);
+}
+
+.btn-w-icon:hover {
+  transform: translateY(-3px);
+}
+
+.btn-w-icon span {
+  position: relative;
+  display: flex;
+  width: max-content;
+}
+
+.btn-w-icon i {
+  padding-top: 0.1rem;
 }
 
 .btn.disabled {
   background-color: var(--light-gray);
   cursor: not-allowed;
+}
+.btn.disabled:hover {
+  transform: translateY(0);
 }
 
 .btn-floating {
@@ -157,4 +180,15 @@
   font-size: 2.5rem;
   text-decoration: none;
   place-content: center;
+}
+
+.heart {
+  color: var(--light-gray);
+  font-size: large;
+  transition: var(--transition-default);
+}
+
+.heart:hover {
+  color: var(--red);
+  transform: scale(1.2) translateY(-3px);
 }

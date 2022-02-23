@@ -16,9 +16,7 @@
     "declaration-empty-line-before": [
       "always",
       {
-        "except": [
-          "first-nested"
-        ],
+        "except": ["first-nested"],
         "ignore": [
           "after-comment",
           "after-declaration",
@@ -30,8 +28,7 @@
     "plugin/rational-order": [
       true,
       {
-        "border-in-box-model": true,
-        "empty-line-between-groups": true
+        "border-in-box-model": true
       }
     ]
   }
