@@ -33,3 +33,25 @@
 .flex-column {
   flex-direction: column;
 }
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.pos-ab {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-topr {
+  top: 0;
+  right: 0;
+}
+
+.pos-topl {
+  top: 0;
+  left: 0;
+}

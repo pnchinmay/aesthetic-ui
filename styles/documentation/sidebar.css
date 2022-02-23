@@ -49,4 +49,5 @@ a.sidebar-link:hover {
 
 .active {
   color: var(--color-primary);
+  background-color: var(--color-primary-light);
 }
