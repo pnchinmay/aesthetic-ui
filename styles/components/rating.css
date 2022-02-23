@@ -1,0 +1,19 @@
+.rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating:before {
+  content: '\f005';
+}
+
+.rating {
+  font-size: 1.5rem;
+  color: var(--color-rating);
+  font-family: 'Font Awesome 5 Free';
+  play: inline-block;
+}
+
+.rating-solid {
+  font-weight: 900;
+}
