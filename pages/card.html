@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Chinmay Manas" />
+    <meta name="description" content="Utilities for controlling alert components">
+
+    <!-- Primary Meta Tags -->
+    <title>Card - Aesthetic UI</title>
+    <meta name="title" content="Aesthetic UI">
+    <meta name="author" content="Chinmay Manas">
+    <meta name="description" content="Utilities for controlling alert components">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aesthetic-ui-dev.netlify.app/">
+    <meta property="og:title" content="Aesthetic UI">
+    <meta name="description" content="Utilities for controlling alert components">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/pnchinmay/aesthetic-ui/development/assets/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aesthetic-ui-dev.netlify.app/">
+    <meta property="twitter:title" content="Aesthetic UI">
+    <meta property="twitter:description"
+        content="Aesthetic UI, a UI component library for shipping code faster.
+Aesthetic UI is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/pnchinmay/aesthetic-ui/development/assets/logo.png">
+
+    <!-- Optional Meta Tags -->
+    <meta name="keywords"
+        content="CSS, CSS Framework, UI Component Library, Component Library, CSS Framework, UI, ui, components, website, development, library, web development, web">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- External Imports -->
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar-top">
+            <div class="navbar-section">
+                <div>
+                    <a href="/index.html">
+                        <span class="brand">
+                            <img src="/assets/logo.png" alt="Aesthetic UI Logo" class="brand-logo">
+                        </span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="list-item-inline">
+                        <a href="/pages/introduction.html">Get Started</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/pages/alert.html">Documentation</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/pages/alert.html">Components</a>
+                    </li>
+                </ul>
+
+                <ul class="nav-links">
+                    <li class="list-item-inline">
+                        <a href="https://github.com/pnchinmay/aesthetic-ui" target="_blank"><i
+                                class="fab fa-github h3 list-item-inline"></i></a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    <!-- Component Section -->
+    <div class="main-section">
+
+        <!-- Sidebar -->
+        <nav id="sidebar-menu" class="sidebar">
+            <ul class="sidebar-list">
+                <a href="/pages/introduction.html" class="sidebar-link title">Get Started</a>
+                <a href="/pages/introduction.html" class="sidebar-link">Installation</a>
+
+                <a href="/pages/alert.html" class="sidebar-link title">Components</a>
+
+                <a href="/pages/alert.html" class="sidebar-link">Alert</a>
+
+                <a href="/pages/avatar.html" class="sidebar-link">Avatar</a>
+
+                <a href="/pages/badge.html" class="sidebar-link">Badge</a>
+
+                <a href="/pages/button.html" class="sidebar-link">Button</a>
+
+                <a href="/pages/card.html" class="sidebar-link active">Card</a>
+
+                <a href="/pages/image.html" class="sidebar-link">Images</a>
+
+                <a href="/pages/input.html" class="sidebar-link">Input</a>
+
+                <a href="/pages/lists.html" class="sidebar-link">Lists</a>
+
+                <a href="/pages/navigation.html" class="sidebar-link">Navigation</a>
+
+                <a href="/pages/rating.html" class="sidebar-link">Rating</a>
+
+                <a href="/pages/text-utilities.html" class="sidebar-link">Text Utilities</a>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="docs-body">
+                <header class="docs-header">
+                    <h2>Cards</h2>
+                    <p class="docs-para">
+                        Card are used to show user related data collectively, like product details.
+                    </p>
+                </header>
+                <section class="docs-section">
+                    <h3>Cards with Badges</h3>
+                    <div class="component-container">
+                        <div class="card-vert">
+                            <span class="card-badge">Best Seller</span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=auto&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vert%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Cards with dismiss</h3>
+                    <div class="component-container">
+                        <div class="card-vert">
+                            <span class="fas fa-times pos-ab pos-topr badge-dismiss"></span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=auto&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fas%2520fa-times%2520pos-ab%2520pos-topr%2520badge-dismiss%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%250A%2520%2520%2520%2520%2520%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%250A%2520%2520%2520%2520%2520%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%250A%2520%2520%2520%2520%2520%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%250A%2520%2520%2520%2520%2520%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Cards with text overlay</h3>
+                    <div class="component-container">
+                        <div class="card-vert">
+                            <div class="pos-ab card-overlay">
+                                <p class="pos-ab text-overlay pos-topl">Out of Stock</p>
+                            </div>
+                            <span class="card-badge">Best Seller</span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pos-ab%2520card-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pos-ab%2520text-overlay%2520pos-topl%2522%253EOut%2520of%2520Stock%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Text only Cards</h3>
+                    <div class="component-container">
+                        <div class="card-hor">
+                            <span class="fas fa-times pos-ab pos-topr badge-dismiss"></span>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text-scroll">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, aperiam. Obcaecati assumenda enim quidem dolor asperiores voluptates, quis dolorem, esse facere ea, eos atque cum ex eius mollitia aut? Sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis sapiente quod labore, modi necessitatibus quae illum inventore facere quidem. Labore qui porro corporis laborum animi laudantium aspernatur, voluptates quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos tempore illo a enim commodi iure exercitationem odit tempora harum. Neque fugit iste recusandae animi dolorem nihil, deleniti libero dolor.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-hor%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fas%2520fa-times%2520pos-ab%2520pos-topr%2520badge-dismiss%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text-scroll%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%2520experience%2520from%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%2520insightful%2520interviews%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520happier%252C%2520wealthier%2520life.Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Unde%252C%2520aperiam.%2520Obcaecati%2520assumenda%2520enim%2520quidem%2520dolor%2520asperiores%2520voluptates%252C%2520quis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dolorem%252C%2520esse%2520facere%2520ea%252C%2520eos%2520atque%2520cum%2520ex%2520eius%2520mollitia%2520aut%253F%2520Sint.%2520Lorem%2520ipsum%2520dolor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ullam%2520quis%2520sapiente%2520quod%2520labore%252C%2520modi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520necessitatibus%2520quae%2520illum%2520inventore%2520facere%2520quidem.%2520Labore%2520qui%2520porro%2520corporis%2520laborum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520animi%2520laudantium%2520aspernatur%252C%2520voluptates%2520quibusdam.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520consectetur%2520adipisicing%2520elit.%2520Nesciunt%2520quos%2520tempore%2520illo%2520a%2520enim%2520commodi%2520iure%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520exercitationem%2520odit%2520tempora%2520harum.%2520Neque%2520fugit%2520iste%2520recusandae%2520animi%2520dolorem%2520nihil%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520deleniti%2520libero%2520dolor.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Vertical Cards</h3>
+                    <div class="component-container">
+                        <div class="card-vert">
+                            <span class="card-badge">Best Seller</span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                        <div class="card-vert">
+                            <span class="fas fa-times pos-ab pos-topr badge-dismiss"></span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%250A%2520%2520%2520%2520%2520%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%250A%2520%2520%2520%2520%2520%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%250A%2520%2520%2520%2520%2520%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%250A%2520%2520%2520%2520%2520%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-vert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fas%2520fa-times%2520pos-ab%2520pos-topr%2520badge-dismiss%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%250A%2520%2520%2520%2520%2520%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%250A%2520%2520%2520%2520%2520%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%250A%2520%2520%2520%2520%2520%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520y"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Horizontal Cards</h3>
+                    <div class="component-container">
+                        <div class="card-hor">
+                            <span class="fas fa-times pos-ab pos-topr badge-dismiss"></span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-fit"/>
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-hor%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fas%2520fa-times%2520pos-ab%2520pos-topr%2520badge-dismiss%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-fit%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%250A%2520%2520%2520%2520%2520%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%250A%2520%2520%2520%2520%2520%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%250A%2520%2520%2520%2520%2520%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%250A%2520%2520%2520%2520%2520%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h3>Cards with shadow</h3>
+                    <div class="component-container">
+                        <div class="card-vert card-shadow">
+                            <span class="fas fa-times pos-ab pos-topr badge-dismiss"></span>
+                            <div class="card-img">
+                                <img src="https://m.media-amazon.com/images/I/61fp0RQR+9L._AC_UL960_QL65_.jpg"
+                                alt="book img" class="img-responsive" />
+                            </div>
+                            <div class="card-details">
+                                <h4 class="card-title">The Almanack Of Naval Ravikant</h4>
+                                <p class="card-subtitle">Eric Jorgenson</p>
+                                <p class="card-text">
+                                    The Almanack of Naval Ravikant is a collection of Naval's wisdom and experience from the last ten years, shared as a curation of his most insightful interviews and poignant reflections. This isn't a how-to book, or a step-by-step gimmick. Instead, through Naval's own words, you will learn how to walk your own unique path toward a happier, wealthier life.
+                                </p>
+                                <card-footer class="m-2 card-footer">
+                                    <div class="card-price">Rs. 500</div>
+                                    <div class="card-btn">
+                                        <button class="btn-w-icon btn-solid-primary">
+                                            <i class="fas fa-shopping-cart icon"></i>
+                                            <span class="ml-2"> Add to Cart </span>
+                                        </button>
+                                        <button class="card-icon bg-inherit">
+                                            <i class="fas fa-heart icon heart"></i>
+                                        </button>
+                                    </div>
+                                </card-footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vert%2520card-shadow%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fas%2520fa-times%2520pos-ab%2520pos-topr%2520badge-dismiss%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F61fp0RQR%252B9L._AC_UL960_QL65_.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522book%2520img%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253EThe%2520Almanack%2520Of%2520Naval%2520Ravikant%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EEric%2520Jorgenson%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Almanack%2520of%2520Naval%2520Ravikant%2520is%2520a%2520collection%2520of%2520Naval%27s%2520wisdom%2520and%250A%2520%2520%2520%2520%2520%2520experience%2520from%2520the%2520last%2520ten%2520years%252C%2520shared%2520as%2520a%2520curation%2520of%2520his%2520most%250A%2520%2520%2520%2520%2520%2520insightful%2520interviews%2520and%2520poignant%2520reflections.%2520This%2520isn%27t%2520a%2520how-to%2520book%252C%250A%2520%2520%2520%2520%2520%2520or%2520a%2520step-by-step%2520gimmick.%2520Instead%252C%2520through%2520Naval%27s%2520own%2520words%252C%2520you%2520will%250A%2520%2520%2520%2520%2520%2520learn%2520how%2520to%2520walk%2520your%2520own%2520unique%2520path%2520toward%2520a%2520happier%252C%2520wealthier%2520life.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ccard-footer%2520class%253D%2522m-2%2520card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-w-icon%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-2%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-icon%2520bg-inherit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon%2520heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fcard-footer%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                
+                <!-- Documentation Page Footer -->
+                <footer class="doc-footer">
+                    <div class="footer-header mb-1">
+                        Made with <i class="fas fa-heart" aria-hidden="true"></i> by Chinmay Manas
+                    </div>
+                    <div class="footer-social-handles">
+                        <a href="https://github.com/pnchinmay" aria-label="Github Profile" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/pnchinmay" aria-label="Twitter Profile" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/pnchinmay" aria-label="LinkedIn Profile" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </footer>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/scripts/documentation.js"></script>
+</body>
+
+</html>
