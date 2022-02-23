@@ -127,6 +127,31 @@
   margin-left: calc(5 * var(--margin-default));
 }
 
+.mx-6 {
+  margin-right: calc(6 * var(--margin-default));
+  margin-left: calc(6 * var(--margin-default));
+}
+
+.mx-7 {
+  margin-right: calc(7 * var(--margin-default));
+  margin-left: calc(7 * var(--margin-default));
+}
+
+.mx-8 {
+  margin-right: calc(8 * var(--margin-default));
+  margin-left: calc(8 * var(--margin-default));
+}
+
+.mx-9 {
+  margin-right: calc(9 * var(--margin-default));
+  margin-left: calc(9 * var(--margin-default));
+}
+
+.mx-10 {
+  margin-right: calc(10 * var(--margin-default));
+  margin-left: calc(10 * var(--margin-default));
+}
+
 .my-1 {
   margin-top: calc(1 * var(--margin-default));
   margin-bottom: calc(1 * var(--margin-default));

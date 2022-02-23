@@ -1,6 +1,7 @@
 /* Doc main content */
 .main-section {
   display: flex;
+  /* flex-wrap: wrap; */
 
   height: 88vh;
   margin: 0 auto;
@@ -12,7 +13,7 @@ main {
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
-  overflow: auto;
+  overflow: clip auto;
 
   font-size: 1.6rem;
 }
@@ -78,6 +79,8 @@ iframe {
   justify-content: center;
   max-width: 100%;
   margin: 3rem 0;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 2rem;
   border: 1px solid var(--light-gray);
   border-radius: var(--radius-sm);

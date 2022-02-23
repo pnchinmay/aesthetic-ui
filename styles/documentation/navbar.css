@@ -1,6 +1,7 @@
 .navbar-top {
   /* Box Model */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
@@ -20,10 +21,16 @@
 
 .navbar-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-links a {
