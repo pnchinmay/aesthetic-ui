@@ -36,6 +36,7 @@
 .nav-links a {
   color: var(--plain-gray);
   font-weight: 600;
+  font-size: large;
   text-decoration: none;
 }
 

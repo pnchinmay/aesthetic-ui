@@ -102,7 +102,7 @@ iframe {
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
-
+  padding-bottom: 10px;
   color: var(--plain-gray);
 }
 
