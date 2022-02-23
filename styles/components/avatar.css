@@ -1,9 +1,16 @@
 .avatar {
+  position: relative;
+
   width: 4.8rem;
   height: 4.8rem;
   margin: 0.5rem;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.avatar img {
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .avatar .avatar-image {

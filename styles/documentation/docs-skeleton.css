@@ -88,6 +88,10 @@ iframe {
   box-shadow: none;
 }
 
+.component-container .badge-icon {
+  margin: calc(8 * var(--margin-default));
+}
+
 /* Doc Footer */
 .doc-footer {
   display: flex;
